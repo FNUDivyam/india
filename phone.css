@@ -1,0 +1,7 @@
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li{
+    flex-direction: column;
+}

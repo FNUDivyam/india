@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body {
+  height: 2000px;
+}
+
+/* navbar  */
+
+#navbar img {
+  height: 100px;
+  width: 100px;
+  margin: 26px 12px;
+}
+
+#navbar {
+  display: flex;
+  position: relative;
+  position: sticky;
+  top: 2px;
+
+}
+
+#navbar::before {
+  content: '';
+  background-color: black;
+  position: absolute;
+  height: 150px;
+  width: 1520px;
+  z-index: -1;
+  opacity: 0.1;
+
+}
+
+#navbar ul {
+  align-items: center;
+  display: flex;
+
+}
+
+#navbar ul li {
+  list-style: none;
+
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  margin: 7px;
+  font-size: 1.5rem;
+  padding: 2px 23px;
+  color: yellow;
+
+}
+
+
+#navbar ul li a:hover {
+  border-radius: 22px;
+  background-color: red;
+  color: green;
+}
+
+
+/* section  */
+
+
+#section {
+  color: white;
+  opacity: 1;
+}
+
+#section h1 {
+  text-align: center;
+}
+
+#section p {
+  text-align: center;
+}
+
+
+#section::before {
+
+  content: '';
+  background: url(wolfgang-hasselmann-vUmXRyVKpIA-unsplash.jpg ) no-repeat center center/cover;
+  position: absolute;
+  height: 500px;
+  width: 1520px;
+  z-index: -1;
+  opacity: 0.89px;
+  margin-top: -156px;
+}
+
+
+/* services  */
+
+
+.services {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+
+  /* width: 300px; */
+  margin-top: 413px;
+
+}
+
+/* .services::before{
+  content: '';
+  background: url( istockphoto-1311598658-1024x1024.jpg) no-repeat center center/cover;
+  position: absolute;
+  height: 500px;
+  width: 1520px;
+  z-index: -1;
+  opacity: 0.34;
+} */
+
+
+.item {
+  /* border: 2px solid purple; */
+  color: rgb(81, 80, 160);
+  margin: 2px 2px;
+  height: 200px;
+  width: 400px;
+  margin-left: 52px;
+
+
+}
+
+.services img{
+  height: 180px;
+  width: 400px;
+}
+
+.services p{
+ margin-left: 22px;
+}
+
+
